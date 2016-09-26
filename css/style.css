@@ -2,6 +2,15 @@
 		margin:0;
 		padding:0;
 	}
+
+	@font-face {
+	    font-family: 'OpenSans'; 
+	    src: url('fonts/OpenSans-Light_0.ttf');
+	    font-family: 'PeaceSansWebfont'; 
+	    src: url('fonts/PeaceSansWebfont.ttf');
+	    font-family: 'PetersburgCyrillic'; 
+	    src: url('fonts/Petersburg Cyrillic.ttf');
+	}
 	
 	.yelowLine {
 		width: 300px;
@@ -48,6 +57,7 @@
 	#location {
 		padding-right: 10px; 
 		text-align: center;
+		font-family: 'Petersburg Cyrillic', serif;
 	}
 
 	#text_style {
@@ -60,10 +70,13 @@
 	#h1 {
 		font-size: 54px;
 		font-weight: 900;
+		margin-bottom: -10px;
+		font-family: 'Peace Sans', sans-serif;
 	}
 
 	#h2 {
 		font-size: 24px;
+		font-family: 'Open Sans', sans-serif;
 	}
 
 	#h3 {
@@ -72,6 +85,7 @@
 		text-align: center;
 		margin: 0 auto;
 		padding-bottom: 20px;
+		font-family: 'Peace Sans', sans-serif;
 	}
 
 	#imgs_style {
@@ -89,6 +103,15 @@
 		margin:0 auto;
 		padding-top: 100px;
 		padding-bottom: 100px;
+	}
+
+	#about_title {
+		font-family: 'Petersburg Cyrillic', serif;
+		font-size: 20px;
+	}
+
+	#about_text {
+		font-size: 14px;
 	}
 
 	#skills {
@@ -109,11 +132,18 @@
 	}
 	
 	ul li {
-		margin-left: 40px;
+		margin-left: 20px;
+		list-style: none;
 	}
 
 	li {
 		padding: 5px;
+	}
+
+	li:before {
+	    content: "•";
+	    padding-right: 20px;
+	    color: #ededed;
 	}
 
 	#list_title_style {
