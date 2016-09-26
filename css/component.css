@@ -54,7 +54,7 @@ nav a:focus {
 }
 .codeconSkillbar {
     width: 90%;
-    height: 25px;
+    height: 35px;
     position: relative;
     background: #ededed;
     margin: 10px auto;
@@ -63,52 +63,13 @@ nav a:focus {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-#codeconXML {
-    width: 100%;
-    animation: Animate-HTML 4s;
-    -webkit-animation: Animate-HTML 4s;
-    -moz-animation: Animate-HTML 4s;
-    -o-animation: Animate-HTML 4s;
-    height: 25px;
-    position: absolute;
-    background-color: #fec41b;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-@keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 100%}
-}@-webkit-keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 100%}
-}@-moz-keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 100%}
-}@-o-keyframes Animate-HTML {
-    from {
-    width: 10px;
-}
-to {
-    width: 100%}
-}
 #codeconAndroid {
     animation: Animate-Android 5s;
     -webkit-animation: Animate-Android 5s;
     -moz-animation: Animate-Android 5s;
     -o-animation: Animate-Android 5s;
     width: 93%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -147,7 +108,7 @@ to {
     -moz-animation: Animate-Git 5s;
     -o-animation: Animate-Git 5s;
     width: 62%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -181,12 +142,12 @@ to {
     width: 62%}
 }
 #codeconSQLite {
-    animation: Animate-JS 4s;
-    -webkit-animation: Animate-JS 4s;
-    -moz-animation: Animate-JS 4s;
-    -o-animation: Animate-JS 4s;
+    animation: Animate-SQLite 4s;
+    -webkit-animation: Animate-SQLite 4s;
+    -moz-animation: Animate-SQLite 4s;
+    -o-animation: Animate-SQLite 4s;
     width: 65%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -194,25 +155,25 @@ to {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-@keyframes Animate-JS {
+@keyframes Animate-SQLite {
     from {
     width: 10px;
 }
 to {
     width: 65%}
-}@-webkit-keyframes Animate-JS {
+}@-webkit-keyframes Animate-SQLite {
     from {
     width: 10px;
 }
 to {
     width: 65%}
-}@-moz-keyframes Animate-JS {
+}@-moz-keyframes Animate-SQLite {
     from {
     width: 10px;
 }
 to {
     width: 65%}
-}@-o-keyframes Animate-JS {
+}@-o-keyframes Animate-SQLite {
     from {
     width: 10px;
 }
@@ -220,12 +181,12 @@ to {
     width: 65%}
 }
 #codeconREST {
-    animation: Animate-XML 4s;
-    -webkit-animation: Animate-XML 4s;
-    -moz-animation: Animate-XML 4s;
-    -o-animation: Animate-XML 4s;
+    animation: Animate-REST 4s;
+    -webkit-animation: Animate-REST 4s;
+    -moz-animation: Animate-REST 4s;
+    -o-animation: Animate-REST 4s;
     width: 95%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -233,25 +194,25 @@ to {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-@keyframes Animate-XML {
+@keyframes Animate-REST {
     from {
     width: 10px;
 }
 to {
     width: 95%}
-}@-webkit-keyframes Animate-XML {
+}@-webkit-keyframes Animate-REST {
     from {
     width: 10px;
 }
 to {
     width: 95%}
-}@-moz-keyframes Animate-XML {
+}@-moz-keyframes Animate-REST {
     from {
     width: 10px;
 }
 to {
     width: 95%}
-}@-o-keyframes Animate-XML {
+}@-o-keyframes Animate-REST {
     from {
     width: 10px;
 }
@@ -264,7 +225,7 @@ to {
     -moz-animation: Animate-Retrofit 4s;
     -o-animation: Animate-Retrofit 4s;
     width: 87%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -303,7 +264,7 @@ to {
     -moz-animation: Animate-JAVA 4s;
     -o-animation: Animate-JAVA 4s;
     width: 85%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -342,7 +303,7 @@ to {
     -moz-animation: Animate-Fabric 4s;
     -o-animation: Animate-Fabric 4s;
     width: 55%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -381,7 +342,7 @@ to {
     -moz-animation: Animate-XML 4s;
     -o-animation: Animate-XML 4s;
     width: 94%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -420,7 +381,7 @@ to {
     -moz-animation: Animate-GoogleMaps 4s;
     -o-animation: Animate-GoogleMaps 4s;
     width: 80%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -459,7 +420,7 @@ to {
     -moz-animation: Animate-SocialApi 4s;
     -o-animation: Animate-SocialApi 4s;
     width: 76%;
-    height: 25px;
+    height: 35px;
     position: absolute;
     background-color: #fec41b;
     border-top-left-radius: 20px;
@@ -496,7 +457,7 @@ to {
     z-index: 1;
     float: left;
     //position: absolute;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: 15px;
     text-shadow: none;
     color: #000;
@@ -508,7 +469,7 @@ to {
     z-index: 3;
     position: relative;
     padding-right: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
     float: right;
     text-shadow: none;
     color: #000;
