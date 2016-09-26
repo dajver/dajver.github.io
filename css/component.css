@@ -1,0 +1,517 @@
+
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+/* ******************************************************
+	Basic Styling
+*********************************************************/
+
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+/* ******************************************************
+	Animated Skills Bar
+*********************************************************/
+
+#codeconSkills {
+    font-size: 20px;
+    height: auto;
+    /*margin: 0 auto;*/
+    padding: 10px;
+    width: 100%;
+}
+#codeconSkills img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.codeconSkillbar {
+    width: 90%;
+    height: 25px;
+    position: relative;
+    background: #ededed;
+    margin: 10px auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#codeconXML {
+    width: 100%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}
+#codeconAndroid {
+    animation: Animate-Android 5s;
+    -webkit-animation: Animate-Android 5s;
+    -moz-animation: Animate-Android 5s;
+    -o-animation: Animate-Android 5s;
+    width: 93%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-Android {
+    from {
+    width: 10px;
+}
+to {
+    width: 93%}
+}@-webkit-keyframes Animate-Android {
+    from {
+    width: 10px;
+}
+to {
+    width: 93%}
+}@-moz-keyframes Animate-Android {
+    from {
+    width: 10px;
+}
+to {
+    width: 93%}
+}@-o-keyframes Animate-Android {
+    from {
+    width: 10px;
+}
+to {
+    width: 93%}
+}
+#codeconGit {
+    animation: Animate-Git 5s;
+    -webkit-animation: Animate-Git 5s;
+    -moz-animation: Animate-Git 5s;
+    -o-animation: Animate-Git 5s;
+    width: 62%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-Git {
+    from {
+    width: 10px;
+}
+to {
+    width: 62%}
+}@-webkit-keyframes Animate-Git {
+    from {
+    width: 10px;
+}
+to {
+    width: 62%}
+}@-moz-keyframes Animate-Git {
+    from {
+    width: 10px;
+}
+to {
+    width: 62%}
+}@-o-keyframes Animate-Git {
+    from {
+    width: 10px;
+}
+to {
+    width: 62%}
+}
+#codeconSQLite {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}
+#codeconREST {
+    animation: Animate-XML 4s;
+    -webkit-animation: Animate-XML 4s;
+    -moz-animation: Animate-XML 4s;
+    -o-animation: Animate-XML 4s;
+    width: 95%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}@-webkit-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}@-moz-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}@-o-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}
+#codeconRetrofit {
+    animation: Animate-Retrofit 4s;
+    -webkit-animation: Animate-Retrofit 4s;
+    -moz-animation: Animate-Retrofit 4s;
+    -o-animation: Animate-Retrofit 4s;
+    width: 87%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-Retrofit {
+    from {
+    width: 10px;
+}
+to {
+    width: 87%}
+}@-webkit-keyframes Animate-Retrofit {
+    from {
+    width: 10px;
+}
+to {
+    width: 87%}
+}@-moz-keyframes Animate-Retrofit {
+    from {
+    width: 10px;
+}
+to {
+    width: 87%}
+}@-o-keyframes Animate-Retrofit {
+    from {
+    width: 10px;
+}
+to {
+    width: 87%}
+}
+#codeconJAVA {
+    animation: Animate-JAVA 4s;
+    -webkit-animation: Animate-JAVA 4s;
+    -moz-animation: Animate-JAVA 4s;
+    -o-animation: Animate-JAVA 4s;
+    width: 85%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}@-webkit-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}@-moz-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}@-o-keyframes Animate-JAVA {
+    from {
+    width: 10px;
+}
+to {
+    width: 85%}
+}
+#codeconFabric {
+    animation: Animate-Fabric 4s;
+    -webkit-animation: Animate-Fabric 4s;
+    -moz-animation: Animate-Fabric 4s;
+    -o-animation: Animate-Fabric 4s;
+    width: 55%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-Fabric {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-webkit-keyframes Animate-Fabric {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-moz-keyframes Animate-Fabric {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}@-o-keyframes Animate-Fabric {
+    from {
+    width: 10px;
+}
+to {
+    width: 55%}
+}
+#codeconXML {
+    animation: Animate-XML 4s;
+    -webkit-animation: Animate-XML 4s;
+    -moz-animation: Animate-XML 4s;
+    -o-animation: Animate-XML 4s;
+    width: 94%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 94%}
+}@-webkit-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 94%}
+}@-moz-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 94%}
+}@-o-keyframes Animate-XML {
+    from {
+    width: 10px;
+}
+to {
+    width: 94%}
+}
+#codeconGoogleMaps {
+    animation: Animate-GoogleMaps 4s;
+    -webkit-animation: Animate-GoogleMaps 4s;
+    -moz-animation: Animate-GoogleMaps 4s;
+    -o-animation: Animate-GoogleMaps 4s;
+    width: 80%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-GoogleMaps {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-GoogleMaps {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-GoogleMaps {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-GoogleMaps {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+#codeconSocialApi {
+    animation: Animate-SocialApi 4s;
+    -webkit-animation: Animate-SocialApi 4s;
+    -moz-animation: Animate-SocialApi 4s;
+    -o-animation: Animate-SocialApi 4s;
+    width: 76%;
+    height: 25px;
+    position: absolute;
+    background-color: #fec41b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+@keyframes Animate-SocialApi {
+    from {
+    width: 10px;
+}
+to {
+    width: 76%}
+}@-webkit-keyframes Animate-SocialApi {
+    from {
+    width: 10px;
+}
+to {
+    width: 76%}
+}@-moz-keyframes Animate-SocialApi {
+    from {
+    width: 10px;
+}
+to {
+    width: 76%}
+}@-o-keyframes Animate-SocialApi {
+    from {
+    width: 10px;
+}
+to {
+    width: 76%}
+}
+.codeconSkillArea {
+    z-index: 1;
+    float: left;
+    //position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #000;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 14px;
+}
+
+.PercentText {
+    z-index: 3;
+    position: relative;
+    padding-right: 5px;
+    margin-top: 5px;
+    float: right;
+    text-shadow: none;
+    color: #000;
+    //font-family: Lato-Regular, sans-serif;
+    font-size: 14px;
+}
