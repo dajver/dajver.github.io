@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+    @font-face {
+        font-family: 'OpenSansBold'; 
+        src: url('../fonts/OpenSans-Bold_0.ttf');
+    }
 
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
@@ -457,10 +461,11 @@ to {
     z-index: 1;
     float: left;
     //position: absolute;
-    margin-top: 10px;
+    margin-top: 7px;
     margin-left: 15px;
     text-shadow: none;
     color: #000;
+    font-family: 'OpenSansBold', serif;
     //font-family: Lato-Regular, sans-serif;
     font-size: 14px;
 }
@@ -469,9 +474,10 @@ to {
     z-index: 3;
     position: relative;
     padding-right: 15px;
-    margin-top: 10px;
+    margin-top: 7px;
     float: right;
     text-shadow: none;
+    font-family: 'OpenSansBold', serif;
     color: #000;
     //font-family: Lato-Regular, sans-serif;
     font-size: 14px;
