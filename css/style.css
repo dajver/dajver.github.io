@@ -189,3 +189,22 @@
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
+
+	#footer {
+		background: #000;
+		padding-top: 100px;
+		padding-bottom: 50px;
+		color: #fff;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#footer_designed_by {
+		padding-top: 40px;
+		font-size: 10px;
+	}
+
+	#footer_designed_by a {
+		color: #fff;
+		text-decoration: none;
+	}
