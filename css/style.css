@@ -12,9 +12,13 @@
 	    src: url('fonts/Petersburg Cyrillic.ttf');
 	}
 	
+	a {
+		text-decoration: none;
+	}
+
 	.yelowLine {
 		width: 300px;
-		height: 3px;
+		height: 5px;
 		background: #fec41b;
 		margin:0 auto;
 	}
@@ -192,7 +196,7 @@
 
 	#footer {
 		background: #000;
-		padding-top: 100px;
+		padding-top: 50px;
 		padding-bottom: 50px;
 		color: #fff;
 		margin: 0 auto;
@@ -206,5 +210,14 @@
 
 	#footer_designed_by a {
 		color: #fff;
-		text-decoration: none;
+	}
+
+	#footer_name {
+		letter-spacing: 10px;
+		font-weight: 900;
+		margin-bottom: 10px;
+	}
+
+	#footer_yelow {
+		background: #000;
 	}
