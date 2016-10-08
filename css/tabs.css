@@ -15,7 +15,7 @@
 	   	margin: 0 auto; 
 	   	text-align: center;
 	   	min-width: 320px; 
-	   	max-width: 900px;
+	   	max-width: 100%;
    }
    .content {
 	   	color: #373737;

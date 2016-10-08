@@ -5,7 +5,7 @@ function showHide(shID) {
             document.getElementById(shID).style.display = 'block';
         }
         else {
-            document.getElementById(shID+'-show').style.display = 'inline';
+            document.getElementById(shID+'-show').style.display = 'block';
             document.getElementById(shID).style.display = 'none';
         }
     }
