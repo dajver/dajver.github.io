@@ -68,7 +68,8 @@
 	}
 
 	#avatarRight {
-	  width: 35%;
+		margin-top: 30px;
+	  	width: 35%;
 	}
 
 	#location {
@@ -78,7 +79,8 @@
 
 	#location_text {
 		font-family: 'PetersburgCyrillic', serif;
-		padding-bottom: 20px;
+		padding-bottom: 40px;
+		margin-top: -20px;
 		color:#d8d8d8;
 	}
 
@@ -102,7 +104,7 @@
 	}
 
 	#h3 {
-		font-size: 24px;
+		font-size: 34px;
 		font-weight: 900;
 		text-align: center;
 		margin: 0 auto;
