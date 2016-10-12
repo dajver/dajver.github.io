@@ -191,7 +191,6 @@
 		margin:0 auto;
 		width: 900px;
   		display: flex;
-  		padding-bottom: 100px;
 	}
 
 	#blog_text {
@@ -232,7 +231,7 @@
 		right: 0;
 	}
 
-	#blog_rectangle a:link, a:visited, a:active {
+	#blog_rectangle a:link, #blog_rectangle a:visited, #blog_rectangle a:active {
 		width: 175px;
 		height: 60px;
 		background: #fec41b;
