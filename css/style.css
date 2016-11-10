@@ -53,6 +53,7 @@
 	#title {
 		font-size: 14px;
 		color:#d8d8d8;
+		margin-right: 10px;
 	}
 
 	#about {
@@ -264,15 +265,15 @@
 	}
 
 	#portfolioTables {
-		margin:0 auto;
+		margin: 0 auto;
 		text-align: center;
 		width: 900px;
+		height: 190px;
   		display: flex;
 	}
 
 	#portfolioLeft {
 	  width: 35%;
-	  margin: 0 auto;
 	}
 
 	#portfolioCenter {
