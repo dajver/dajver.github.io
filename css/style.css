@@ -63,7 +63,7 @@ a {
 	padding-bottom: 100px;
 }
 
-#about_mobile {
+#about_mobile { /* mobile part*/
 	margin:0 auto;
 	display: flex;
 	padding-bottom: 100px;
@@ -98,7 +98,7 @@ a {
 	padding-right: 5px;
 }
 
-#text_style_mobile {
+#text_style_mobile { /* mobile part*/
 	padding-left: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -160,7 +160,7 @@ a {
 	padding-bottom: 100px;
 }
 
-#skills_mobile {
+#skills_mobile { /* mobile part*/
 	width: 600px;
 	margin:0 auto;
 	padding-bottom: 100px;
@@ -198,7 +198,7 @@ li:before {
 	font-family: 'OpenSansBold', sans-serif;
 }
 
-#list_title_style_mobile {
+#list_title_style_mobile { /* mobile part*/
 	font-weight: 900;
 	margin-left: 25px;
 	font-family: 'OpenSansBold', sans-serif;
@@ -220,7 +220,7 @@ li:before {
 	display: flex;
 }
 
-#blog_main_mobile {
+#blog_main_mobile { /* mobile part*/
 	margin:0 auto;
 	width: 900px;
 }
