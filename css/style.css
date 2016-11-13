@@ -63,6 +63,12 @@ a {
 	padding-bottom: 100px;
 }
 
+#about_mobile {
+	margin:0 auto;
+	display: flex;
+	padding-bottom: 100px;
+}
+
 #menuLeft {
   width: 65%;
   padding-top: 50px;
@@ -90,6 +96,14 @@ a {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 5px;
+}
+
+#text_style_mobile {
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	margin: 0 auto;
 }
 
 #h1 {
@@ -146,6 +160,12 @@ a {
 	padding-bottom: 100px;
 }
 
+#skills_mobile {
+	width: 600px;
+	margin:0 auto;
+	padding-bottom: 100px;
+}
+
 #skillsLeft {
   width: 50%;
 }
@@ -178,6 +198,12 @@ li:before {
 	font-family: 'OpenSansBold', sans-serif;
 }
 
+#list_title_style_mobile {
+	font-weight: 900;
+	margin-left: 25px;
+	font-family: 'OpenSansBold', sans-serif;
+}
+
 #my_skills {
 	padding-top: 100px;
 }
@@ -192,6 +218,11 @@ li:before {
 	margin:0 auto;
 	width: 900px;
 	display: flex;
+}
+
+#blog_main_mobile {
+	margin:0 auto;
+	width: 900px;
 }
 
 #blog_text {
