@@ -109,7 +109,7 @@ a {
 }
 
 #h3 {
-	font-size: 34px;
+	font-size: 30px;
 	font-weight: 900;
 	text-align: center;
 	margin: 0 auto;
@@ -200,7 +200,6 @@ li:before {
 
 #blog_text a {
 	margin: 0 auto;
-	width: 500px;
 	text-transform: uppercase;
 	font-family: 'OpenSansBold';
 	text-decoration: none;
@@ -283,7 +282,6 @@ li:before {
 
 #my_contacts_info {
 	margin: 0 auto;
-	width: 250px;
 }
 
 #my_contacts_text {
