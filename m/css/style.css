@@ -28,6 +28,10 @@ a {
 	text-decoration: none;
 }
 
+#container {
+	margin: 0 auto;
+}
+
 .yelowLine {
 	width: 300px;
 	height: 5px;
@@ -267,6 +271,7 @@ li:before {
 #portfolio {
 	background: #ededed;
 	padding-top: 100px;
+	margin: 0 auto;
 }
 
 #portfolioTables {
@@ -304,7 +309,6 @@ li:before {
 #my_contacts_text {
 	padding-left: 20px;
 	padding-bottom: 20px;
-
 }
 
 #footer {
