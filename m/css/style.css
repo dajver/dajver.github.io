@@ -255,6 +255,7 @@ li:before {
 	margin: 0 auto;
 	text-align: center;
 	display: flex;
+	width: 100%;
 }
 
 #portfolioLeft {
