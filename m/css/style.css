@@ -6,22 +6,22 @@
 
 @font-face {
     font-family: 'OpenSansLight'; 
-    src: url('../fonts/OpenSans-Light_0.ttf');
+    src: url('../../fonts/OpenSans-Light_0.ttf');
 }
 
 @font-face {
     font-family: 'OpenSansBold'; 
-    src: url('../fonts/OpenSans-Bold_0.ttf');
+    src: url('../../fonts/OpenSans-Bold_0.ttf');
 }
 
 @font-face {
     font-family: 'PeaceSansWebfont'; 
-    src: url('../fonts/PeaceSansWebfont.ttf');
+    src: url('../../fonts/PeaceSansWebfont.ttf');
 }
 
 @font-face {
     font-family: 'PetersburgCyrillic'; 
-    src: url('../fonts/Petersburg Cyrillic.ttf');
+    src: url('../../fonts/Petersburg Cyrillic.ttf');
 }
 
 a {
@@ -56,9 +56,8 @@ a {
 	margin-right: 10px;
 }
 
-#about {
+#about_mobile { /* mobile part*/
 	margin:0 auto;
-	width: 900px;
 	display: flex;
 	padding-bottom: 100px;
 }
@@ -85,11 +84,12 @@ a {
 	color:#d8d8d8;
 }
 
-#text_style {
+#text_style_mobile { /* mobile part*/
 	padding-left: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 5px;
+	margin: 0 auto;
 }
 
 #h1 {
@@ -130,6 +130,12 @@ a {
 	padding-bottom: 100px;
 }
 
+#about_me_mobile {
+	text-align: center;
+	margin:0 auto;
+	width: 600px;
+}
+
 #about_title {
 	font-family: 'PetersburgCyrillic', italic;
 	font-size: 20px;
@@ -139,10 +145,9 @@ a {
 	font-size: 14px;
 }
 
-#skills {
+#skills_mobile { /* mobile part*/
+	width: 600px;
 	margin:0 auto;
-	width: 900px;
-	display: flex;
 	padding-bottom: 100px;
 }
 
@@ -173,8 +178,9 @@ li:before {
     color: #ededed;
 }
 
-#list_title_style {
+#list_title_style_mobile { /* mobile part*/
 	font-weight: 900;
+	margin-left: 25px;
 	font-family: 'OpenSansBold', sans-serif;
 }
 
@@ -188,10 +194,9 @@ li:before {
 	padding-bottom: 100px;
 }
 
-#blog_main {
+#blog_main_mobile { /* mobile part*/
 	margin:0 auto;
-	width: 900px;
-	display: flex;
+	width: 600px;
 }
 
 #blog_text {
@@ -267,8 +272,8 @@ li:before {
 #portfolioTables {
 	margin: 0 auto;
 	text-align: center;
-	width: 900px;
-	height: 190px;
+	width: 600px;
+	height: 130px;
 	display: flex;
 }
 
