@@ -282,6 +282,7 @@ li:before {
 
 #my_contacts_info {
 	margin: 0 auto;
+	width: 300px;
 }
 
 #my_contacts_text {
