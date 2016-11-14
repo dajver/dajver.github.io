@@ -169,12 +169,13 @@ li {
 li:before {
     content: "•";
     padding-right: 20px;
-    color: #ededed;
+    color: #999;
 }
 
 #list_title_style_mobile { /* mobile part*/
 	font-weight: 900;
 	margin-left: 25px;
+	padding-top: 20px;
 	font-family: 'OpenSansBold', sans-serif;
 }
 
@@ -282,7 +283,7 @@ li:before {
 
 #my_contacts_info {
 	margin: 0 auto;
-	width: 300px;
+	width: 200px;
 }
 
 #my_contacts_text {
